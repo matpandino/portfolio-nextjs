@@ -22,12 +22,7 @@ const Welcome: React.FC = () => (
     </WelcomeText>
 
     <GradientBorder>
-      <ProfileImage
-        src="/profile.jpeg"
-        alt="Avatar"
-        width={"190px"}
-        height={"190px"}
-      />
+      <ProfileImage src="/profile.jpeg" alt="Avatar" />
     </GradientBorder>
   </WelcomeContainer>
 );

@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import Image, { ImageProps } from "next/image";
 
 export const WelcomeContainer = styled.div`
   display: flex;
@@ -34,8 +33,10 @@ const moveGradient = keyframes`
   }
 `;
 
-export const ProfileImage = styled(Image)`
+export const ProfileImage = styled.img`
   border-radius: 50%;
+  width: 190px;
+  height: 190px;
 `;
 
 interface GradientBorder {
